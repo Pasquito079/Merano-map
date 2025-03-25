@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_48618c571ac8500d3336d10a036e65d0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_48618c571ac8500d3336d10a036e65d0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_48618c571ac8500d3336d10a036e65d0 = L.map(
+                "map_48618c571ac8500d3336d10a036e65d0",
+                {
+                    center: [46.6716, 11.1537],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_48618c571ac8500d3336d10a036e65d0);
+
+            
+
+        
+    
+            var tile_layer_567ce48e09ec102c2909fd0817452ae0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_48618c571ac8500d3336d10a036e65d0);
+        
+    
+            var marker_f39b027970c788d1d3c4b55d50e24de2 = L.marker(
+                [46.6742, 11.159],
+                {}
+            ).addTo(map_48618c571ac8500d3336d10a036e65d0);
+        
+    
+            var icon_c2505bdb4e7a219e309313ffaa3e77bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f39b027970c788d1d3c4b55d50e24de2.setIcon(icon_c2505bdb4e7a219e309313ffaa3e77bd);
+        
+    
+        var popup_4904ca73c9b3546b5e64cbcae82ec4f6 = L.popup({"maxWidth": 300});
+
+        
+            var html_6fe3eeb9773af02f6790538825dcfc87 = $(`<div id="html_6fe3eeb9773af02f6790538825dcfc87" style="width: 100.0%; height: 100.0%;"><b>Passeggiata Gilf</b><br>Passeggiata selvaggia lungo la gola, atmosfera da foresta incantata.</div>`)[0];
+            popup_4904ca73c9b3546b5e64cbcae82ec4f6.setContent(html_6fe3eeb9773af02f6790538825dcfc87);
+        
+
+        marker_f39b027970c788d1d3c4b55d50e24de2.bindPopup(popup_4904ca73c9b3546b5e64cbcae82ec4f6)
+        ;
+
+        
+    
+    
+            marker_f39b027970c788d1d3c4b55d50e24de2.bindTooltip(
+                `<div>
+                     Passeggiata Gilf
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63c9cb946532492706f7fa7206069bde = L.marker(
+                [46.6735, 11.1545],
+                {}
+            ).addTo(map_48618c571ac8500d3336d10a036e65d0);
+        
+    
+            var icon_2d6c3452f2a5a347af8aaf63e701b800 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63c9cb946532492706f7fa7206069bde.setIcon(icon_2d6c3452f2a5a347af8aaf63e701b800);
+        
+    
+        var popup_1a5c35a1e2a52d7e3bfb6374a6c8cd9c = L.popup({"maxWidth": 300});
+
+        
+            var html_8ea0c768e11b5dbf651ecacce47820e5 = $(`<div id="html_8ea0c768e11b5dbf651ecacce47820e5" style="width: 100.0%; height: 100.0%;"><b>Torre delle Polveri (Pulverturm)</b><br>Torre medievale con vista, perfetta per alchimisti in pensione.</div>`)[0];
+            popup_1a5c35a1e2a52d7e3bfb6374a6c8cd9c.setContent(html_8ea0c768e11b5dbf651ecacce47820e5);
+        
+
+        marker_63c9cb946532492706f7fa7206069bde.bindPopup(popup_1a5c35a1e2a52d7e3bfb6374a6c8cd9c)
+        ;
+
+        
+    
+    
+            marker_63c9cb946532492706f7fa7206069bde.bindTooltip(
+                `<div>
+                     Torre delle Polveri (Pulverturm)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_697ddf434fc0245974f1881bce273eca = L.marker(
+                [46.655, 11.1805],
+                {}
+            ).addTo(map_48618c571ac8500d3336d10a036e65d0);
+        
+    
+            var icon_cb66832c987def7fddeef06a05831e4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_697ddf434fc0245974f1881bce273eca.setIcon(icon_cb66832c987def7fddeef06a05831e4a);
+        
+    
+        var popup_237e71ed74328d621611555ae2fb4d58 = L.popup({"maxWidth": 300});
+
+        
+            var html_43fc98ba94b8214be73c9d404bd8396d = $(`<div id="html_43fc98ba94b8214be73c9d404bd8396d" style="width: 100.0%; height: 100.0%;"><b>Castello Labers</b><br>Castello privato con parco segreto, gotico e misterioso.</div>`)[0];
+            popup_237e71ed74328d621611555ae2fb4d58.setContent(html_43fc98ba94b8214be73c9d404bd8396d);
+        
+
+        marker_697ddf434fc0245974f1881bce273eca.bindPopup(popup_237e71ed74328d621611555ae2fb4d58)
+        ;
+
+        
+    
+    
+            marker_697ddf434fc0245974f1881bce273eca.bindTooltip(
+                `<div>
+                     Castello Labers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f28dea06b8e8cfab28aa7ebc5f7d6ead = L.marker(
+                [46.6565, 11.1655],
+                {}
+            ).addTo(map_48618c571ac8500d3336d10a036e65d0);
+        
+    
+            var icon_49cb9f766ef11a758873bbfe1c3bdcd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f28dea06b8e8cfab28aa7ebc5f7d6ead.setIcon(icon_49cb9f766ef11a758873bbfe1c3bdcd3);
+        
+    
+        var popup_24835055caaaf98f4e98f97aa2193bbb = L.popup({"maxWidth": 300});
+
+        
+            var html_944d144f4d0723448e9224379e705222 = $(`<div id="html_944d144f4d0723448e9224379e705222" style="width: 100.0%; height: 100.0%;"><b>Sentiero delle rogge Maia (Waalweg)</b><br>Sentiero tranquillo tra meleti e vigneti, ideale per decomprimere.</div>`)[0];
+            popup_24835055caaaf98f4e98f97aa2193bbb.setContent(html_944d144f4d0723448e9224379e705222);
+        
+
+        marker_f28dea06b8e8cfab28aa7ebc5f7d6ead.bindPopup(popup_24835055caaaf98f4e98f97aa2193bbb)
+        ;
+
+        
+    
+    
+            marker_f28dea06b8e8cfab28aa7ebc5f7d6ead.bindTooltip(
+                `<div>
+                     Sentiero delle rogge Maia (Waalweg)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02526711fc1c95fe91929a9ad81e995a = L.marker(
+                [46.671, 11.153],
+                {}
+            ).addTo(map_48618c571ac8500d3336d10a036e65d0);
+        
+    
+            var icon_0278a5b841e6b5e07d38edecaa73c1f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02526711fc1c95fe91929a9ad81e995a.setIcon(icon_0278a5b841e6b5e07d38edecaa73c1f2);
+        
+    
+        var popup_d7b8de27f0b094a7497dce2f918f2cea = L.popup({"maxWidth": 300});
+
+        
+            var html_73c14f3ba91e99ec2f83d8fab0f5a038 = $(`<div id="html_73c14f3ba91e99ec2f83d8fab0f5a038" style="width: 100.0%; height: 100.0%;"><b>Quartiere Steinach</b><br>Il cuore medievale di Merano, silenzioso e senza selfie-stick.</div>`)[0];
+            popup_d7b8de27f0b094a7497dce2f918f2cea.setContent(html_73c14f3ba91e99ec2f83d8fab0f5a038);
+        
+
+        marker_02526711fc1c95fe91929a9ad81e995a.bindPopup(popup_d7b8de27f0b094a7497dce2f918f2cea)
+        ;
+
+        
+    
+    
+            marker_02526711fc1c95fe91929a9ad81e995a.bindTooltip(
+                `<div>
+                     Quartiere Steinach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcba2c5b0822abf60bea94744eb50c24 = L.marker(
+                [46.6715, 11.154],
+                {}
+            ).addTo(map_48618c571ac8500d3336d10a036e65d0);
+        
+    
+            var icon_fc9f54ba31c117e812e3520a80491808 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcba2c5b0822abf60bea94744eb50c24.setIcon(icon_fc9f54ba31c117e812e3520a80491808);
+        
+    
+        var popup_63071462cbe3e18305506d7f23c5f930 = L.popup({"maxWidth": 300});
+
+        
+            var html_01828f9711781e1b1ec6b034e45bfee6 = $(`<div id="html_01828f9711781e1b1ec6b034e45bfee6" style="width: 100.0%; height: 100.0%;"><b>Museo delle Donne</b><br>Storia e forza femminile raccontate in un museo piccolo ma potente.</div>`)[0];
+            popup_63071462cbe3e18305506d7f23c5f930.setContent(html_01828f9711781e1b1ec6b034e45bfee6);
+        
+
+        marker_bcba2c5b0822abf60bea94744eb50c24.bindPopup(popup_63071462cbe3e18305506d7f23c5f930)
+        ;
+
+        
+    
+    
+            marker_bcba2c5b0822abf60bea94744eb50c24.bindTooltip(
+                `<div>
+                     Museo delle Donne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e47daeed484f28bb6dbfa11cd6ebe7f = L.marker(
+                [46.6665, 11.134],
+                {}
+            ).addTo(map_48618c571ac8500d3336d10a036e65d0);
+        
+    
+            var icon_254ba6475c97c0e258c0aad86dec1e27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e47daeed484f28bb6dbfa11cd6ebe7f.setIcon(icon_254ba6475c97c0e258c0aad86dec1e27);
+        
+    
+        var popup_a712466a821520347214a3549b9fa379 = L.popup({"maxWidth": 300});
+
+        
+            var html_d528e9c0f13f9690037927a89cfcdf37 = $(`<div id="html_d528e9c0f13f9690037927a89cfcdf37" style="width: 100.0%; height: 100.0%;"><b>Giardino Botanico Scuola Agraria</b><br>Un Eden nascosto, più selvatico del giardino ufficiale.</div>`)[0];
+            popup_a712466a821520347214a3549b9fa379.setContent(html_d528e9c0f13f9690037927a89cfcdf37);
+        
+
+        marker_9e47daeed484f28bb6dbfa11cd6ebe7f.bindPopup(popup_a712466a821520347214a3549b9fa379)
+        ;
+
+        
+    
+    
+            marker_9e47daeed484f28bb6dbfa11cd6ebe7f.bindTooltip(
+                `<div>
+                     Giardino Botanico Scuola Agraria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7adbd9b13fe3ba7cee2afececcdbded0 = L.marker(
+                [46.6713, 11.1528],
+                {}
+            ).addTo(map_48618c571ac8500d3336d10a036e65d0);
+        
+    
+            var icon_28923d63b192d37939c4fc05cfc6155b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7adbd9b13fe3ba7cee2afececcdbded0.setIcon(icon_28923d63b192d37939c4fc05cfc6155b);
+        
+    
+        var popup_f1ff776c818235a10a9676b0716549d5 = L.popup({"maxWidth": 300});
+
+        
+            var html_464cd27b097ae13ddc6136572868279e = $(`<div id="html_464cd27b097ae13ddc6136572868279e" style="width: 100.0%; height: 100.0%;"><b>Bunker antiatomico</b><br>Sotto Merano c'è un mondo da Guerra Fredda. Serve guida o evento speciale.</div>`)[0];
+            popup_f1ff776c818235a10a9676b0716549d5.setContent(html_464cd27b097ae13ddc6136572868279e);
+        
+
+        marker_7adbd9b13fe3ba7cee2afececcdbded0.bindPopup(popup_f1ff776c818235a10a9676b0716549d5)
+        ;
+
+        
+    
+    
+            marker_7adbd9b13fe3ba7cee2afececcdbded0.bindTooltip(
+                `<div>
+                     Bunker antiatomico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
